@@ -13,7 +13,7 @@ struct AI_KameraApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ModelListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

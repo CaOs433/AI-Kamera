@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F9031432948F2D100A03C9D /* license_plate.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F9031422948F2D100A03C9D /* license_plate.mlmodel */; };
+		3F903145294922D100A03C9D /* setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F903144294922D100A03C9D /* setup.swift */; };
 		3FC3C0AF293D0F420091212F /* AI_KameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0AE293D0F420091212F /* AI_KameraApp.swift */; };
-		3FC3C0B1293D0F420091212F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0B0293D0F420091212F /* ContentView.swift */; };
 		3FC3C0B3293D0F490091212F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3C0B2293D0F490091212F /* Assets.xcassets */; };
 		3FC3C0B6293D0F490091212F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3C0B5293D0F490091212F /* Preview Assets.xcassets */; };
 		3FC3C0B8293D0F490091212F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0B7293D0F490091212F /* Persistence.swift */; };
@@ -16,6 +17,11 @@
 		3FC3C0C5293D0F4A0091212F /* AI_KameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0C4293D0F4A0091212F /* AI_KameraTests.swift */; };
 		3FC3C0CF293D0F4A0091212F /* AI_KameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0CE293D0F4A0091212F /* AI_KameraUITests.swift */; };
 		3FC3C0D1293D0F4A0091212F /* AI_KameraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0D0293D0F4A0091212F /* AI_KameraUITestsLaunchTests.swift */; };
+		3FC3C0DF293D12130091212F /* facemask.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0DE293D12130091212F /* facemask.mlmodel */; };
+		3FC3C0E1293D26A10091212F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0E0293D26A10091212F /* Models.swift */; };
+		3FC3C0E3293D296D0091212F /* ModelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0E2293D296D0091212F /* ModelListView.swift */; };
+		3FC3C0E6293D3B3C0091212F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0E5293D3B3C0091212F /* CameraViewController.swift */; };
+		3FC3C0E9293D3C5C0091212F /* CameraViewControllerDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C0E8293D3C5C0091212F /* CameraViewControllerDetector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F9031422948F2D100A03C9D /* license_plate.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = license_plate.mlmodel; sourceTree = "<group>"; };
+		3F903144294922D100A03C9D /* setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setup.swift; sourceTree = "<group>"; };
 		3FC3C0AB293D0F420091212F /* AI-Kamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Kamera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC3C0AE293D0F420091212F /* AI_KameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_KameraApp.swift; sourceTree = "<group>"; };
-		3FC3C0B0293D0F420091212F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FC3C0B2293D0F490091212F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC3C0B5293D0F490091212F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FC3C0B7293D0F490091212F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +55,11 @@
 		3FC3C0CA293D0F4A0091212F /* AI-KameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI-KameraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC3C0CE293D0F4A0091212F /* AI_KameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_KameraUITests.swift; sourceTree = "<group>"; };
 		3FC3C0D0293D0F4A0091212F /* AI_KameraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_KameraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FC3C0DE293D12130091212F /* facemask.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = facemask.mlmodel; sourceTree = "<group>"; };
+		3FC3C0E0293D26A10091212F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3FC3C0E2293D296D0091212F /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
+		3FC3C0E5293D3B3C0091212F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3FC3C0E8293D3C5C0091212F /* CameraViewControllerDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewControllerDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +110,13 @@
 		3FC3C0AD293D0F420091212F /* AI-Kamera */ = {
 			isa = PBXGroup;
 			children = (
+				3FC3C0DD293D11D50091212F /* Models */,
 				3FC3C0AE293D0F420091212F /* AI_KameraApp.swift */,
-				3FC3C0B0293D0F420091212F /* ContentView.swift */,
+				3FC3C0E4293D297D0091212F /* Views */,
 				3FC3C0B2293D0F490091212F /* Assets.xcassets */,
+				3FC3C0E7293D3B420091212F /* ViewControllers */,
 				3FC3C0B7293D0F490091212F /* Persistence.swift */,
+				3F903144294922D100A03C9D /* setup.swift */,
 				3FC3C0B9293D0F490091212F /* AI_Kamera.xcdatamodeld */,
 				3FC3C0B4293D0F490091212F /* Preview Content */,
 			);
@@ -131,6 +146,33 @@
 				3FC3C0D0293D0F4A0091212F /* AI_KameraUITestsLaunchTests.swift */,
 			);
 			path = "AI-KameraUITests";
+			sourceTree = "<group>";
+		};
+		3FC3C0DD293D11D50091212F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3C0DE293D12130091212F /* facemask.mlmodel */,
+				3F9031422948F2D100A03C9D /* license_plate.mlmodel */,
+				3FC3C0E0293D26A10091212F /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FC3C0E4293D297D0091212F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3C0E2293D296D0091212F /* ModelListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FC3C0E7293D3B420091212F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3C0E5293D3B3C0091212F /* CameraViewController.swift */,
+				3FC3C0E8293D3C5C0091212F /* CameraViewControllerDetector.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC3C0E3293D296D0091212F /* ModelListView.swift in Sources */,
 				3FC3C0BB293D0F490091212F /* AI_Kamera.xcdatamodeld in Sources */,
+				3FC3C0DF293D12130091212F /* facemask.mlmodel in Sources */,
 				3FC3C0B8293D0F490091212F /* Persistence.swift in Sources */,
-				3FC3C0B1293D0F420091212F /* ContentView.swift in Sources */,
+				3FC3C0E9293D3C5C0091212F /* CameraViewControllerDetector.swift in Sources */,
+				3F903145294922D100A03C9D /* setup.swift in Sources */,
+				3FC3C0E1293D26A10091212F /* Models.swift in Sources */,
+				3FC3C0E6293D3B3C0091212F /* CameraViewController.swift in Sources */,
 				3FC3C0AF293D0F420091212F /* AI_KameraApp.swift in Sources */,
+				3F9031432948F2D100A03C9D /* license_plate.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,17 +476,22 @@
 				DEVELOPMENT_TEAM = 624BW5M489;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI-Kamera/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI-Kamera";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app need to access your camera for object detecting";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = ...;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Oskari-Saarinen.AI-Kamera";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ssl-saario.AI-Kamera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -457,17 +510,22 @@
 				DEVELOPMENT_TEAM = 624BW5M489;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI-Kamera/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI-Kamera";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app need to access your camera for object detecting";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = ...;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Oskari-Saarinen.AI-Kamera";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ssl-saario.AI-Kamera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
